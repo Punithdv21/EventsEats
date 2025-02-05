@@ -1,0 +1,108 @@
+/* RegisterPage.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form container */
+  .register-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input field styling */
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  input[type='text']:focus,
+  input[type='email']:focus,
+  input[type='password']:focus {
+    border-color: #4CAF50;
+    background-color: #eaf7e1;
+    outline: none;
+  }
+  
+  /* Error message styling */
+  .text-red-500 {
+    color: #f44336;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styling */
+  button[type='submit'] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .register-container {
+      padding: 15px;
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    input[type='text'],
+    input[type='email'],
+    input[type='password'],
+    button[type='submit'] {
+      font-size: 1rem;
+    }
+  }
+  
